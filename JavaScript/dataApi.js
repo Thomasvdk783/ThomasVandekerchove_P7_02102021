@@ -10,14 +10,21 @@ export default async function dataRecipes() {
   // Show Recipes //
   recipes.forEach((item) => {
     const arrIngredients = item.ingredients;
-    arrIngredients.forEach((ing) => {
-      
-    });
+    const afficheIngredients = document.querySelectorAll('.ingredients-explication');
+    const pIngredient = document.querySelectorAll('.show-ingredient')
+    arrIngredients.forEach(function(ing){
+      let ingredient = ing.ingredient;
+      let quantity = ing.quantity;
+      let unit = ing.unit;
+      const showIngredient = `<p>${ingredient} : ${quantity} ${unit}</p>`;
+      console.log(showIngredient)
+      // pIngredient.innerHTML += showIngredient
+    })
 
     const containerRecipes = document.getElementById("list-recipes");
     const recipeCard = `<section class="card-recipe">
             <figure>
-              <img src="./medias/Recette-pâtes-carbonara-au-thermomix.jpg" alt="" />
+              <img src="medias/Recette-pâtes-carbonara-au-thermomix.jpg" alt="" />
             </figure>
             <article class="bottom-part-card-recipe">
               <header class="card-header">
@@ -27,8 +34,8 @@ export default async function dataRecipes() {
                       ${item.time}
                   </p>
               </header>
-              <article class="ingredients-explication">      
-              <ul><li>${arrIngredients}</li></ul>
+              <article class="ingredients-explication">
+                  <p class="show-ingredient"></p>
                   <p>
                       ${item.description}
                   </p>
