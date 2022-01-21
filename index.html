@@ -14,6 +14,7 @@
     />
   </head>
   <body>
+    <!-- Header -->
     <header class="principal-header">
       <img
         class="logo"
@@ -34,10 +35,10 @@
           <img src="./medias/loupe.svg" alt="Loup image" />
         </section>
       </section>
-      <!-- Section filter -->
+      <!-- Section BTN filter -->
       <section class="section-btn-filter">
         <div class="dropdown-ingredients">
-          <button onclick="myFunctionIngredients()" class="dropbtn">
+          <button  class="dropbtn">
             <input
               type="text"
               placeholder="Ingredients"
@@ -46,13 +47,7 @@
             />
           </button>
           <div id="myDropdownIngredients" class="dropdown-content">
-            <a href="#about">About</a>
-            <a href="#base">Base</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
-            <a href="#custom">Custom</a>
-            <a href="#support">Support</a>
-            <a href="#tools">Tools</a>
+            <!-- Contenu dynamique -->
           </div>
         </div>
 
@@ -98,281 +93,12 @@
       </section>
       <!-- Content section with recipes -->
       <section id="list-recipes" class="box-recipes">
-        <section class="card-recipe">
-          <figure>
-            <img src="./medias/Recette-pâtes-carbonara-au-thermomix.jpg" alt="" />
-          </figure>
-          <article class="bottom-part-card-recipe">
-            <header class="card-header">
-                <h2>Limonade de Coco</h2>
-                <p class="p-time">
-                    <img src="./medias/time.svg" alt="time of recipe">
-                    10 min
-                </p>
-            </header>
-            <article class="ingredients-explication">
-                <ul>
-                    <li>Lait de coco: 400ml</li>
-                    <li>Jus de citron: 2</li>
-                    <li>Créme de coco: 4 cuillères</li>
-                    <li>Sucre: 20g</li>
-                    <li>Glaçons: 2</li>
-                </ul>
-                <p>
-                    Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée
-                </p>
-            </article>
-          </article>
-        </section>
-
-        <section class="card-recipe">
-            <figure>
-              <img src="./medias/Recettes-Pates-en-sauce.jpg" alt="" />
-            </figure>
-            <article class="bottom-part-card-recipe">
-              <header class="card-header">
-                  <h2>Limonade de Coco</h2>
-                  <p class="p-time">
-                      <img src="./medias/time.svg" alt="time of recipe">
-                      10 min
-                  </p>
-              </header>
-              <article class="ingredients-explication">
-                  <ul>
-                      <li>Lait de coco: 400ml</li>
-                      <li>Jus de citron: 2</li>
-                      <li>Créme de coco: 4 cuillères</li>
-                      <li>Sucre: 20g</li>
-                      <li>Glaçons: 2</li>
-                  </ul>
-                  <p>
-                      Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée
-                  </p>
-              </article>
-            </article>
-          </section>
-
-          <section class="card-recipe">
-            <figure>
-              <img src="./medias/recettes-pates-vegetariennes.jpg" alt="" />
-            </figure>
-            <article class="bottom-part-card-recipe">
-              <header class="card-header">
-                  <h2>Limonade de Coco</h2>
-                  <p class="p-time">
-                      <img src="./medias/time.svg" alt="time of recipe">
-                      10 min
-                  </p>
-              </header>
-              <article class="ingredients-explication">
-                  <ul>
-                      <li>Lait de coco: 400ml</li>
-                      <li>Jus de citron: 2</li>
-                      <li>Créme de coco: 4 cuillères</li>
-                      <li>Sucre: 20g</li>
-                      <li>Glaçons: 2</li>
-                  </ul>
-                  <p>
-                      Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée
-                  </p>
-              </article>
-            </article>
-          </section>
-
-          <section class="card-recipe">
-            <figure>
-              <img src="./medias/Recettes-Pates-en-sauce.jpg" alt="" />
-            </figure>
-            <article class="bottom-part-card-recipe">
-              <header class="card-header">
-                  <h2>Limonade de Coco</h2>
-                  <p class="p-time">
-                      <img src="./medias/time.svg" alt="time of recipe">
-                      10 min
-                  </p>
-              </header>
-              <article class="ingredients-explication">
-                  <ul>
-                      <li>Lait de coco: 400ml</li>
-                      <li>Jus de citron: 2</li>
-                      <li>Créme de coco: 4 cuillères</li>
-                      <li>Sucre: 20g</li>
-                      <li>Glaçons: 2</li>
-                  </ul>
-                  <p>
-                      Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée
-                  </p>
-              </article>
-            </article>
-          </section>
-
-          <section class="card-recipe">
-            <figure>
-              <img src="./medias/Recette-pâtes-carbonara-au-thermomix.jpg" alt="" />
-            </figure>
-            <article class="bottom-part-card-recipe">
-              <header class="card-header">
-                  <h2>Limonade de Coco</h2>
-                  <p class="p-time">
-                      <img src="./medias/time.svg" alt="time of recipe">
-                      10 min
-                  </p>
-              </header>
-              <article class="ingredients-explication">
-                  <ul>
-                      <li>Lait de coco: 400ml</li>
-                      <li>Jus de citron: 2</li>
-                      <li>Créme de coco: 4 cuillères</li>
-                      <li>Sucre: 20g</li>
-                      <li>Glaçons: 2</li>
-                  </ul>
-                  <p>
-                      Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée
-                  </p>
-              </article>
-            </article>
-          </section>
-
-          <section class="card-recipe">
-            <figure>
-              <img src="./medias/Recette-pâtes-carbonara-au-thermomix.jpg" alt="" />
-            </figure>
-            <article class="bottom-part-card-recipe">
-              <header class="card-header">
-                  <h2>Limonade de Coco</h2>
-                  <p class="p-time">
-                      <img src="./medias/time.svg" alt="time of recipe">
-                      10 min
-                  </p>
-              </header>
-              <article class="ingredients-explication">
-                  <ul>
-                      <li>Lait de coco: 400ml</li>
-                      <li>Jus de citron: 2</li>
-                      <li>Créme de coco: 4 cuillères</li>
-                      <li>Sucre: 20g</li>
-                      <li>Glaçons: 2</li>
-                  </ul>
-                  <p>
-                      Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée
-                  </p>
-              </article>
-            </article>
-          </section>
-
-          <section class="card-recipe">
-            <figure>
-              <img src="./medias/Recette-pâtes-carbonara-au-thermomix.jpg" alt="" />
-            </figure>
-            <article class="bottom-part-card-recipe">
-              <header class="card-header">
-                  <h2>Limonade de Coco</h2>
-                  <p class="p-time">
-                      <img src="./medias/time.svg" alt="time of recipe">
-                      10 min
-                  </p>
-              </header>
-              <article class="ingredients-explication">
-                  <ul>
-                      <li>Lait de coco: 400ml</li>
-                      <li>Jus de citron: 2</li>
-                      <li>Créme de coco: 4 cuillères</li>
-                      <li>Sucre: 20g</li>
-                      <li>Glaçons: 2</li>
-                  </ul>
-                  <p>
-                      Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée
-                  </p>
-              </article>
-            </article>
-          </section>
-
-          <section class="card-recipe">
-            <figure>
-              <img src="./medias/Recette-pâtes-carbonara-au-thermomix.jpg" alt="" />
-            </figure>
-            <article class="bottom-part-card-recipe">
-              <header class="card-header">
-                  <h2>Limonade de Coco</h2>
-                  <p class="p-time">
-                      <img src="./medias/time.svg" alt="time of recipe">
-                      10 min
-                  </p>
-              </header>
-              <article class="ingredients-explication">
-                  <ul>
-                      <li>Lait de coco: 400ml</li>
-                      <li>Jus de citron: 2</li>
-                      <li>Créme de coco: 4 cuillères</li>
-                      <li>Sucre: 20g</li>
-                      <li>Glaçons: 2</li>
-                  </ul>
-                  <p>
-                      Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée
-                  </p>
-              </article>
-            </article>
-          </section>
-
-          <section class="card-recipe">
-            <figure>
-              <img src="./medias/Recette-pâtes-carbonara-au-thermomix.jpg" alt="" />
-            </figure>
-            <article class="bottom-part-card-recipe">
-              <header class="card-header">
-                  <h2>Limonade de Coco</h2>
-                  <p class="p-time">
-                      <img src="./medias/time.svg" alt="time of recipe">
-                      10 min
-                  </p>
-              </header>
-              <article class="ingredients-explication">
-                  <ul>
-                      <li>Lait de coco: 400ml</li>
-                      <li>Jus de citron: 2</li>
-                      <li>Créme de coco: 4 cuillères</li>
-                      <li>Sucre: 20g</li>
-                      <li>Glaçons: 2</li>
-                  </ul>
-                  <p>
-                      Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée
-                  </p>
-              </article>
-            </article>
-          </section>
-
-          <section class="card-recipe">
-            <figure>
-              <img src="./medias/Recette-pâtes-carbonara-au-thermomix.jpg" alt="" />
-            </figure>
-            <article class="bottom-part-card-recipe">
-              <header class="card-header">
-                  <h2>Limonade de Coco</h2>
-                  <p class="p-time">
-                      <img src="./medias/time.svg" alt="time of recipe">
-                      10 min
-                  </p>
-              </header>
-              <article class="ingredients-explication">
-                  <ul>
-                      <li>Lait de coco: 400ml</li>
-                      <li>Jus de citron: 2</li>
-                      <li>Créme de coco: 4 cuillères</li>
-                      <li>Sucre: 20g</li>
-                      <li>Glaçons: 2</li>
-                  </ul>
-                  <p>
-                      Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée
-                  </p>
-              </article>
-            </article>
-          </section>
+        <!-- Recipes -->
       </section>
     </main>
-    <script src="JavaScript/dropdownBtnIngredients.js"></script>
-    <script src="JavaScript/dropdownBtnAppareil.js"></script>
-    <script src="JavaScript/dropdownBtnUstensiles.js"></script>
-    <script src="./JavaScript/main.js"></script>
-    <script src="JavaScript/dataApi.js"></script>
+
+    <!-- script link -->
+    <script type="module" src="./JavaScript/main.js" async></script>
+
   </body>
 </html>
