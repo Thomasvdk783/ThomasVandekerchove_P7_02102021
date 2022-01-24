@@ -6,7 +6,7 @@
     margin-top: 20px;
     gap: 15px;
 
-.dropbtn {
+.dropbtn1 {
     background-color: #3282F7;
     color: white;
     border-radius: 5px;
@@ -17,11 +17,10 @@
     cursor: pointer;
   }
   
-  .dropbtn:hover, .dropbtn:focus {
+  .dropbtn1:hover, .dropbtn1:focus {
     background-color: #3282F7;
   }
   
-
   #myInputIngredients {
     background-repeat: no-repeat;
     font-size: 16px;
@@ -46,8 +45,11 @@
   .dropdown-content {
     display: none;
     position: absolute;
+    font-weight: bold;
+    color: #fff;
     background-color: #3282F7;
-    min-width: 230px;
+    width: 550px;
+    height: auto;
     border: 1px solid #3282F7;
     border-radius:5px;
     z-index: 1;
@@ -62,6 +64,16 @@
   .dropdown-content a:hover {background-color: #3282F7}
   .show {display:block;}
 
+  /// Class for javascript 
+  .dropdown-ingredients-width{
+    width: 450px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+
+
+
   /// btn appareil ///
   .dropbtn-appareil {
     background-color: #68D9A4;
@@ -74,7 +86,7 @@
     cursor: pointer;
   }
   
-  .dropbtn-appareil:hover, .dropbtn:focus {
+  .dropbtn-appareil:hover, .dropbtn2:focus {
     background-color: #68D9A4;
   }
   #myInputAppareil {
@@ -115,7 +127,7 @@
     cursor: pointer;
   }
   
-  .dropbtn-ustensiles:hover, .dropbtn:focus {
+  .dropbtn-ustensiles:hover, .dropbtn3:focus {
     background-color: #ED6454;
   }
   #myInputUstensiles {
@@ -152,4 +164,16 @@
         display: flex;
         flex-direction: column;
     }
+}
+
+
+.ul-btn-ingredients{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  li{
+    list-style-type: none;
+    display: flex;
+  flex-wrap: wrap;
+  }
 }
